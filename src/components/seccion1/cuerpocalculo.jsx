@@ -6,7 +6,7 @@ export default function cuerpocalculo() {
     return (
         <article>
             <FormularioCalculo/>
-            <VerCalculo/>
+            <VerCalculo altura={15} peso={89}/>
             <BasculaIMC/>
         </article>
     )
